@@ -6,14 +6,14 @@
   "dependencies": {
     "abbrev": "^1.1.1",
     "ansi-align": "^3.0.1",
+    "ansi-regex": "^5.0.1",
     "ansi-styles": "^4.3.0",
     "anymatch": "^3.1.2",
     "balanced-match": "^1.0.2",
-    "ansi-regex": "^5.0.1",
     "binary-extensions": "^2.2.0",
     "boxen": "^5.1.2",
-    "braces": "^3.0.2",
     "brace-expansion": "^1.1.11",
+    "braces": "^3.0.2",
     "cacheable-request": "^6.1.0",
     "camelcase": "^6.3.0",
     "chalk": "^4.1.2",
@@ -35,6 +35,7 @@
     "emoji-regex": "^8.0.0",
     "end-of-stream": "^1.4.4",
     "escape-goat": "^2.1.1",
+    "express": "^4.18.1",
     "fill-range": "^7.0.1",
     "get-stream": "^4.1.0",
     "glob-parent": "^5.1.2",
@@ -70,7 +71,6 @@
     "minimatch": "^3.1.2",
     "minimist": "^1.2.6",
     "ms": "^2.1.3",
-    "nodemon": "^2.0.18",
     "nopt": "^1.0.10",
     "normalize-path": "^3.0.0",
     "normalize-url": "^4.5.1",
@@ -86,8 +86,8 @@
     "readdirp": "^3.6.0",
     "registry-auth-token": "^4.2.2",
     "registry-url": "^5.1.0",
-    "semver": "^5.7.1",
     "responselike": "^1.0.2",
+    "semver": "^5.7.1",
     "semver-diff": "^3.1.1",
     "signal-exit": "^3.0.7",
     "string-width": "^4.2.3",
@@ -106,11 +106,13 @@
     "widest-line": "^3.1.0",
     "wrap-ansi": "^7.0.0",
     "wrappy": "^1.0.2",
-    "xdg-basedir": "^4.0.0",
     "write-file-atomic": "^3.0.3",
+    "xdg-basedir": "^4.0.0",
     "yallist": "^4.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
